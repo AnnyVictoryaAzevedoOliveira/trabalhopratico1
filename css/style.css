@@ -8,3 +8,173 @@
   white-space: pre-line;
 }
 
+header {
+  background-color: #212529;
+  color: #f8f9fa;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+h1{
+  text-align: left;
+}
+
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.carousel-indicators button {
+  background-color: #212529;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #212529;
+  border-radius: 50%;
+}
+
+#cards-container .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#cards-container .card:hover {
+  transform: translateY(-5px);
+}
+
+#cards-container .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#cards-container .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#cards-container .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+#cards-container .card-text {
+  flex: 1;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+#cards-container .btn-primary {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+#cards-container .btn-primary:hover {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+#sobre {
+  margin-top: 3rem;
+  background-color: #ffffff;
+  color: #212529;
+}
+
+#sobre h2,
+#sobre h5 {
+  color: #212529;
+}
+
+#sobre p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+p{
+  text-align: justify;
+}
+.carousel-caption p{
+  text-align: center;
+}
+
+#sobre img {
+  border: 3px solid #212529;
+}
+
+#sobre a img {
+  width: 28px;
+  height: 28px;
+}
+
+footer {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+.mb-0{
+  text-align: center;
+}
+
+.name{
+  color:#6d3cffdd;
+}
+
+#fotos-associadas .card {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+#fotos-associadas .card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+#detalhe-card .card {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+#detalhe-card h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#detalhe-card p {
+  line-height: 1.6;
+}
+
+#detalhe-card .btn-lg {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+#detalhe-card .btn-lg:hover {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+@media (max-width: 768px) {
+  #cards-container .card-img-top {
+    height: 180px;
+  }
+
+  #detalhe-card .card-img-top {
+    max-height: 250px;
+  }
+}

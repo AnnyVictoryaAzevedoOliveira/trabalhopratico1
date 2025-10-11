@@ -99,7 +99,7 @@ const dados = {
       "conteudo": "No RPG, cada pessoa tem uma função que torna a narrativa viva:\n\n- Mestre/Narrador: cria o mundo, descreve situações e interpreta personagens secundários.\n- Jogadores: interpretam seus personagens e decidem como agir diante dos desafios.\n- Grupo: juntos, formam uma história que mistura planejamento, improviso e emoção.\n\nAlguns grupos ainda incluem funções adicionais, como quem cuida das anotações, dos mapas ou da trilha sonora. Cada papel é essencial para que o jogo flua de forma divertida e colaborativa.",
       "destaque": true,
       "data": "2025-10-06",
-      "imagem_principal": "img/mestre.jpg",
+      "imagem_principal": "img/mestre rpg.jpg",
       "atracoes": [
         {
           "imagem": "img/mestre.webp",
@@ -122,7 +122,7 @@ const dados = {
       "conteudo": "O Veridice RPG é um sistema autoral criado para o portal Role & Play, combinando simplicidade e liberdade narrativa.\nEle usa dados e cartas como elementos principais, permitindo resultados imprevisíveis e cenas cinematográficas.\nInspirado em mundos modernos com toques de paranormalidade e suspense, o Veridice é perfeito para quem quer histórias cheias de mistério, dilemas e segredos.\n\nSe você gosta de jogos com escolhas significativas e personagens intensos, o Veridice RPG é feito para você.",
       "destaque": false,
       "data": "2025-10-05",
-      "imagem_principal": "img/veridice.png",
+      "imagem_principal": "img/download.png",
       "botaoTexto": "Acesse o Servidor do ROLE & PLAY",
       "botaoLink": "https://discord.gg/cfdpqCHrYg",
       "atracoes": [
@@ -310,8 +310,6 @@ function mostrarDetalhe() {
     }
   }
 }
-
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const path = window.location.pathname;
