@@ -7,18 +7,18 @@ const dados = {
       "conteudo": "O Role-Playing Game (RPG) é um jogo em que os participantes assumem papéis de personagens e criam, juntos, uma história interativa. Em vez de simplesmente seguir regras rígidas, o RPG incentiva a imaginação, a interpretação e a tomada de decisões criativas.\nUm jogador assume o papel de Mestre, responsável por narrar o mundo, controlar os personagens secundários e definir desafios. Os demais interpretam personagens-jogadores, com personalidades, habilidades e motivações próprias. Cada jogada se torna parte de uma narrativa colaborativa — o resultado depende tanto das escolhas dos jogadores quanto da sorte dos dados.",
       "destaque": true,
       "data": "2025-10-10",
-      "imagem_principal": "img/interrogar.jpg",
+      "imagem_principal": "img/interrogacao.jpg",
       "atracoes": [
         {
-          "imagem": "img/download.png",
+          "imagem": "img/grupo de rpg.jpg",
           "descricao": "Jogadores reunidos em uma mesa de RPG rolando dados."
         },
         {
-          "imagem": "img/ficha-rpg.jpg",
+          "imagem": "img/ficha1.jpg",
           "descricao": "Fichas de personagem sendo preenchidas."
         },
         {
-          "imagem": "img/dados-rpg.jpg",
+          "imagem": "img/dados_coloridos.jpeg",
           "descricao": "Dados coloridos prontos para uma nova sessão."
         }
       ]
@@ -33,7 +33,7 @@ const dados = {
       "imagem_principal": "img/Caverna-do-Dragão-2.jpg",
       "atracoes": [
         {
-          "imagem": "img/capa_d&d.avif",
+          "imagem": "img/capa_d&d.jpg",
           "descricao": "Capa original do primeiro Dungeons & Dragons, lançado em 1974."
         },
         {
@@ -83,11 +83,11 @@ const dados = {
           "descricao": "Conjunto de dados coloridos de diferentes lados usados nas rolagens."
         },
         {
-          "imagem": "img/fichas_personagem.jpg",
+          "imagem": "img/ficha rpg.jpg",
           "descricao": "Fichas de personagem onde são anotados atributos e habilidades."
         },
         {
-          "imagem": "img/mapa_rpg.jpg",
+          "imagem": "img/maparpg.webp",
           "descricao": "Mapa do mundo de jogo, usado para guiar os jogadores na aventura."
         }
       ]
@@ -106,11 +106,11 @@ const dados = {
           "descricao": "O mestre (ou narrador) é responsável por conduzir a história e os desafios."
         },
         {
-          "imagem": "img/jogadores_interpretando.jpg",
+          "imagem": "img/grupo.webp",
           "descricao": "Jogadores interpretando seus personagens e tomando decisões criativas."
         },
         {
-          "imagem": "img/roleplayer_powergamer.jpg",
+          "imagem": "img/improviso.jpg",
           "descricao": "Cada jogador tem um estilo diferente: interpretação, estratégia ou improviso."
         }
       ]
@@ -123,20 +123,20 @@ const dados = {
       "destaque": false,
       "data": "2025-10-05",
       "imagem_principal": "img/veridice.png",
-      "botaoTexto": "Acesse o Servidor do Veridice",
-      "botaoLink": "",
+      "botaoTexto": "Acesse o Servidor do ROLE & PLAY",
+      "botaoLink": "https://discord.gg/cfdpqCHrYg",
       "atracoes": [
         {
-          "imagem": "img/veridice_logo.jpg",
-          "descricao": "Logotipo do sistema Veridice RPG."
+          "imagem": "img/download.png",
+          "descricao": "Logotipo do ROLE & PLAY."
         },
         {
-          "imagem": "img/veridice_fichas.jpg",
-          "descricao": "Ficha de personagem com atributos e habilidades únicas do sistema."
+          "imagem": "img/logotipodiscord.jpg",
+          "descricao": "Conheça o nosso servidor no Discord."
         },
         {
-          "imagem": "img/veridice_sessao.jpg",
-          "descricao": "Grupo jogando uma campanha ambientada no universo Veridice."
+          "imagem": "img/veridice.png",
+          "descricao": "Logotipo do Verifice RPG"
         }
       ]
     },
@@ -150,15 +150,15 @@ const dados = {
       "imagem_principal": "img/ficha rpg.jpg",
       "atracoes": [
         {
-          "imagem": "img/ficha_preenchendo.jpg",
+          "imagem": "img/ficha1.jpg",
           "descricao": "Jogador preenchendo uma ficha de personagem à mão."
         },
         {
-          "imagem": "img/ficha_digital.jpg",
+          "imagem": "img/fichadigital.webp",
           "descricao": "Versão digital de ficha de personagem usada em mesas online."
         },
         {
-          "imagem": "img/personagem_ilustrado.jpg",
+          "imagem": "img/classes-de-rpg.webp",
           "descricao": "Ilustração usada para representar o visual do personagem no jogo."
         }
       ]
@@ -173,15 +173,15 @@ const dados = {
       "imagem_principal": "img/respeito.jpg",
       "atracoes": [
         {
-          "imagem": "img/jogadores_respeito.jpg",
+          "imagem": "img/grupo de rpg.jpg",
           "descricao": "Jogadores colaborando e respeitando o turno uns dos outros."
         },
         {
-          "imagem": "img/mesa_amistosa.jpg",
+          "imagem": "img/rpggrupo.webp",
           "descricao": "Ambiente amigável e inclusivo torna o RPG mais divertido."
         },
         {
-          "imagem": "img/conflito_mesa.jpg",
+          "imagem": "img/conflitos.jpg",
           "descricao": "Resolução de conflitos com diálogo e empatia durante a sessão."
         }
       ]
@@ -194,8 +194,8 @@ const dados = {
       "destaque": true,
       "data": "2025-10-02",
       "imagem_principal": "img/Discord_IAP_KeyVisuals_Header_02.jpg",
-      "botaoTexto": "Acesse o Servidor do Veridice",
-      "botaoLink": "",
+      "botaoTexto": "Acesse o Servidor do ROLE & PLAY",
+      "botaoLink": "https://discord.gg/cfdpqCHrYg",
       "atracoes": [
         {
           "imagem": "img/logotipodiscord.jpg",
@@ -265,7 +265,6 @@ function mostrarDetalhe() {
 
   const params = new URLSearchParams(window.location.search);
   const id = parseInt(params.get('id'));
-
   const card = dados.cards.find(c => c.id === id);
 
   if (card) {
@@ -277,49 +276,41 @@ function mostrarDetalhe() {
           <p class="text-muted mb-1"><strong>Data:</strong> ${card.data}</p>
           <hr>
           <p class="card-text">${card.descricao}</p>
-          <p>${card.conteudo || ""}</p>
+          <p>${card.conteudo.replace(/\n/g, "<br>")}</p>
+
+          ${card.botaoLink && card.botaoTexto
+        ? `<div class="text-center mt-4">
+                   <a href="${card.botaoLink}" target="_blank" class="btn btn-primary btn-lg">${card.botaoTexto}</a>
+                 </div>`
+        : ""
+      }
         </div>
       </div>
     `;
+
     const fotosContainer = document.getElementById("fotos-associadas");
 
     if (card.atracoes && card.atracoes.length > 0) {
+      fotosContainer.innerHTML = "";
       card.atracoes.forEach(item => {
         const col = document.createElement("div");
         col.className = "col";
-
         col.innerHTML = `
-      <div class="card h-100 shadow-sm">
-        <img src="${item.imagem}" class="card-img-top" alt="Imagem associada">
-        <div class="card-body">
-          <p class="card-text text-center small text-muted">${item.descricao}</p>
-        </div>
-      </div>
-    `;
+          <div class="card h-100 shadow-sm">
+            <img src="${item.imagem}" class="card-img-top" alt="Imagem associada">
+            <div class="card-body">
+              <p class="card-text text-center small text-muted">${item.descricao}</p>
+            </div>
+          </div>
+        `;
         fotosContainer.appendChild(col);
       });
     } else {
       fotosContainer.innerHTML = `<p class="text-muted">Nenhuma foto relacionada disponível.</p>`;
     }
   }
-
-  container.innerHTML = `
-  <div class="card shadow-sm">
-    <img src="${card.imagem_principal}" class="card-img-top" alt="${card.nome}" style="object-fit: cover; max-height: 400px;">
-    <div class="card-body">
-      <h3 class="card-title">${card.nome}</h3>
-      <p class="text-muted mb-1"><strong>Data:</strong> ${card.data}</p>
-      <hr>
-      <p class="card-text">${card.descricao}</p>
-      <div class="conteudo"></div>
-    </div>
-  </div>
-`;
-
-  const conteudoEl = container.querySelector('.conteudo');
-  if (conteudoEl) conteudoEl.textContent = card.conteudo || '';
-
 }
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
