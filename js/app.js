@@ -1,4 +1,3 @@
-
 const dados = {
   "cards": [
     {
@@ -8,7 +7,7 @@ const dados = {
       "conteudo": "Role-Playing Game (RPG) é um jogo onde os participantes interpretam personagens em histórias colaborativas, tomando decisões que afetam o enredo. É diversão, imaginação e estratégia!",
       "destaque": true,
       "data": "2025-10-10",
-      "imagem_principal": "img/rpg1.jpg",
+      "imagem_principal": "img/interrogar.jpg",
       "atracoes": []
     },
     {
@@ -18,7 +17,7 @@ const dados = {
       "conteudo": "O RPG surgiu nos anos 70 com Dungeons & Dragons e evoluiu em múltiplos sistemas e estilos. Desde aventuras medievais até terror e ficção científica, cada época trouxe inovação.",
       "destaque": false,
       "data": "2025-10-09",
-      "imagem_principal": "img/rpg2.jpg",
+      "imagem_principal": "img/Caverna-do-Dragão-2.jpg",
       "atracoes": []
     },
     {
@@ -38,7 +37,7 @@ const dados = {
       "conteudo": "Prepare seus dados poliédricos, lápis, folhas ou fichas de personagem, miniaturas e mapas. A criatividade e o bom humor são tão importantes quanto os acessórios!",
       "destaque": false,
       "data": "2025-10-07",
-      "imagem_principal": "img/rpg4.jpg",
+      "imagem_principal": "img/jogar_rpg.webp",
       "atracoes": []
     },
     {
@@ -58,7 +57,7 @@ const dados = {
       "conteudo": "Veridice RPG oferece mecânicas únicas, um mundo rico em histórias e liberdade para criar personagens. Ideal para quem busca profundidade e flexibilidade.",
       "destaque": false,
       "data": "2025-10-05",
-      "imagem_principal": "img/rpg6.jpg",
+      "imagem_principal": "img/veridice.png",
       "atracoes": []
     },
     {
@@ -68,34 +67,36 @@ const dados = {
       "conteudo": "Defina atributos, habilidades, histórico e personalidade. Uma ficha bem construída ajuda na narrativa e na imersão do jogo.",
       "destaque": true,
       "data": "2025-10-04",
-      "imagem_principal": "img/ficha-rpg.jpg",
+      "imagem_principal": "img/ficha rpg.jpg",
       "atracoes": []
     },
     {
       "id": 8,
-      "nome": "Onde encontrar material para jogar?",
-      "descricao": "Dicas de onde comprar livros, miniaturas, dados e encontrar recursos gratuitos online, como mapas e geradores de NPCs.",
-      "conteudo": "Livrarias especializadas, lojas online, sites de mapas e geradores de NPCs gratuitos. A internet é uma grande aliada para ampliar seu arsenal de RPG.",
-      "destaque": false,
-      "data": "2025-10-03",
-      "imagem_principal": "img/rpg8.jpg",
-      "atracoes": []
-    },
-    {
-      "id": 9,
       "nome": "Etiqueta e Boas Práticas na Mesa",
       "descricao": "Descubra as regras de ouro para um bom convívio, resolvendo conflitos, evitando o metagaming e criando um ambiente de jogo acolhedor para todos.",
       "conteudo": "Evite metagaming, respeite turnos, incentive a colaboração e a diversão de todos. Boas práticas tornam a experiência mais agradável para todos os jogadores.",
       "destaque": true,
       "data": "2025-10-02",
-      "imagem_principal": "",
+      "imagem_principal": "img/respeito.jpg",
       "atracoes": []
-    }
+    },
+    {
+      "id": 9,
+      "nome": "Comunidade Oficial no Discord",
+      "descricao": "Junte-se ao nosso servidor oficial! Encontre mesas, mestres, jogadores e participe de discussões sobre sistemas de RPG.",
+      "conteudo": "Evite metagaming, respeite turnos, incentive a colaboração e a diversão de todos. Boas práticas tornam a experiência mais agradável para todos os jogadores.",
+      "destaque": true,
+      "botaoTexto": "Entrar no Servidor",
+      "data": "2025-10-02",
+      "imagem_principal": "img/Discord_IAP_KeyVisuals_Header_02.jpg",
+      "atracoes": []
+    },
   ]
 };
 
 function gerarCards() {
   const container = document.getElementById('cards-container');
+  if (!container) return; 
 
   dados.cards.forEach(card => {
     const col = document.createElement('div');
@@ -116,4 +117,62 @@ function gerarCards() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", gerarCards);
+function gerarCarrossel() {
+  const container = document.getElementById('carousel-container');
+  if (!container) return;
+
+  dados.cards.forEach((card, index) => {
+    const slide = document.createElement('div');
+    slide.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+
+    slide.innerHTML = `
+      <a href="detalhes.html?id=${card.id}">
+        <img src="${card.imagem_principal}" class="d-block w-100" alt="${card.nome}" style="height: 400px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>${card.nome}</h5>
+          <p>${card.descricao}</p>
+        </div>
+      </a>
+    `;
+    container.appendChild(slide);
+  });
+}
+
+function mostrarDetalhe() {
+  const container = document.getElementById('detalhe-card');
+  if (!container) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const id = parseInt(params.get('id'));
+
+  const card = dados.cards.find(c => c.id === id);
+
+  if (card) {
+    container.innerHTML = `
+      <img src="${card.imagem_principal}" class="card-img-top" alt="${card.nome}">
+      <div class="card-body">
+        <h3 class="card-title">${card.nome}</h3>
+        <p class="card-text">${card.descricao}</p>
+        <p>${card.conteudo || ""}</p>
+      </div>
+    `;
+  } else {
+    container.innerHTML = `
+      <div class="card-body">
+        <p>Card não encontrado!</p>
+        <a href="index.html" class="btn btn-secondary mt-3">Voltar</a>
+      </div>
+    `;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const path = window.location.pathname;
+
+  if (path.includes("index.html") || path === "/" || path === "") {
+    gerarCards();
+    gerarCarrossel();
+  } else if (path.includes("detalhes.html")) {
+    mostrarDetalhe();
+  }
+});
