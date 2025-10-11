@@ -3,3 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
+.conteudo {
+  white-space: pre-line; 
+}

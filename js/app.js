@@ -4,99 +4,220 @@ const dados = {
       "id": 1,
       "nome": "O que é RPG?",
       "descricao": "Descubra o que é um Role-Playing Game (RPG) de mesa, por que ele é tão divertido e os elementos básicos para começar a jogar.",
-      "conteudo": "Role-Playing Game (RPG) é um jogo onde os participantes interpretam personagens em histórias colaborativas, tomando decisões que afetam o enredo. É diversão, imaginação e estratégia!",
+      "conteudo": "O Role-Playing Game (RPG) é um jogo em que os participantes assumem papéis de personagens e criam, juntos, uma história interativa. Em vez de simplesmente seguir regras rígidas, o RPG incentiva a imaginação, a interpretação e a tomada de decisões criativas.\nUm jogador assume o papel de Mestre, responsável por narrar o mundo, controlar os personagens secundários e definir desafios. Os demais interpretam personagens-jogadores, com personalidades, habilidades e motivações próprias. Cada jogada se torna parte de uma narrativa colaborativa — o resultado depende tanto das escolhas dos jogadores quanto da sorte dos dados.",
       "destaque": true,
       "data": "2025-10-10",
       "imagem_principal": "img/interrogar.jpg",
-      "atracoes": []
+      "atracoes": [
+        {
+          "imagem": "img/download.png",
+          "descricao": "Jogadores reunidos em uma mesa de RPG rolando dados."
+        },
+        {
+          "imagem": "img/ficha-rpg.jpg",
+          "descricao": "Fichas de personagem sendo preenchidas."
+        },
+        {
+          "imagem": "img/dados-rpg.jpg",
+          "descricao": "Dados coloridos prontos para uma nova sessão."
+        }
+      ]
     },
     {
       "id": 2,
       "nome": "História do RPG de mesa",
       "descricao": "Conheça a origem do RPG, desde os primórdios do D&D até os sistemas mais modernos.",
-      "conteudo": "O RPG surgiu nos anos 70 com Dungeons & Dragons e evoluiu em múltiplos sistemas e estilos. Desde aventuras medievais até terror e ficção científica, cada época trouxe inovação.",
+      "conteudo": "O RPG nasceu na década de 1970, com o lançamento de Dungeons & Dragons (D&D), criado por Gary Gygax e Dave Arneson.\nInspirado em jogos de estratégia e literatura de fantasia, o D&D transformou o conceito de jogo ao permitir que cada pessoa interpretasse um personagem e criasse histórias coletivas. Desde então, o RPG evoluiu para inúmeros estilos — fantasia, terror, ficção científica, mistério e até versões modernas de suspense urbano.\nHoje, o RPG de mesa é tanto um hobby quanto uma ferramenta educativa e artística, que promove criatividade, empatia e pensamento crítico.",
       "destaque": false,
       "data": "2025-10-09",
       "imagem_principal": "img/Caverna-do-Dragão-2.jpg",
-      "atracoes": []
+      "atracoes": [
+        {
+          "imagem": "img/dnd_classico.jpg",
+          "descricao": "Capa original do primeiro Dungeons & Dragons, lançado em 1974."
+        },
+        {
+          "imagem": "img/gary_g.jpg",
+          "descricao": "Gary Gygax, um dos criadores do RPG de mesa."
+        },
+        {
+          "imagem": "img/rpg_moderno.jpg",
+          "descricao": "Jogadores modernos utilizando livros e tablets para jogar."
+        }
+      ]
     },
     {
       "id": 3,
       "nome": "Como escolher um sistema para jogar?",
       "descricao": "Fantasia Medieval, Sci-Fi, Terror? Aprenda a identificar qual sistema (como D&D, Tormenta, Call of Cthulhu) se encaixa melhor no seu estilo e no da sua mesa.",
-      "conteudo": "D&D para fantasia medieval, Call of Cthulhu para terror, Tormenta para aventuras épicas. Avalie o tema, regras e mecânicas antes de escolher seu sistema.",
+      "conteudo": "Cada sistema de RPG define como as regras funcionam — o que pode ou não ser feito, como testar ações e como contar a história.\nPara escolher o ideal, pense em:\n- Tema: fantasia medieval, mistério, horror, ficção científica, realismo urbano, etc.\n- Estilo de jogo: narrativo, estratégico, rápido, investigativo, cooperativo…\n- Complexidade: sistemas simples como Fate ou Veridice são ótimos para iniciantes; já D&D e Pathfinder oferecem mais detalhes táticos.\n\nNão existe um 'melhor sistema' — o ideal é aquele que combina com o grupo e com o tipo de história que vocês querem contar.",
       "destaque": true,
       "data": "2025-10-08",
       "imagem_principal": "img/rpg-books.jpg",
-      "atracoes": []
+      "atracoes": [
+        {
+          "imagem": "img/livros_rpg.jpg",
+          "descricao": "Manuais de sistemas famosos como D&D, Tormenta e Call of Cthulhu."
+        },
+        {
+          "imagem": "img/fantasia_medieval.jpg",
+          "descricao": "Ambientes de fantasia medieval são comuns em muitos sistemas."
+        },
+        {
+          "imagem": "img/ficcao_cientifica.jpg",
+          "descricao": "Jogos de RPG de ficção científica exploram mundos futuristas e alienígenas."
+        }
+      ]
     },
     {
       "id": 4,
       "nome": "O que é necessário para jogar?",
       "descricao": "Dados, lápis, papel e imaginação! Veja uma lista completa dos itens essenciais e opcionais para sua primeira sessão de RPG.",
-      "conteudo": "Prepare seus dados poliédricos, lápis, folhas ou fichas de personagem, miniaturas e mapas. A criatividade e o bom humor são tão importantes quanto os acessórios!",
+      "conteudo": "Para começar uma sessão de RPG, você precisa de:\n\n- Um grupo de jogadores (geralmente 3 a 6 pessoas);\n- Um Mestre ou Narrador para conduzir a história;\n- Um sistema de regras (livro físico, PDF ou guia resumido);\n- Dados poliédricos (ou aplicativos de rolagem online);\n- Fichas de personagem, lápis e papel;\n- E, acima de tudo, imaginação.\n\nMesmo com poucos recursos, dá para jogar usando apenas o celular, dados virtuais e um espaço online como o Discord.",
       "destaque": false,
       "data": "2025-10-07",
       "imagem_principal": "img/jogar_rpg.webp",
-      "atracoes": []
+      "atracoes": [
+        {
+          "imagem": "img/dados_coloridos.jpg",
+          "descricao": "Conjunto de dados coloridos de diferentes lados usados nas rolagens."
+        },
+        {
+          "imagem": "img/fichas_personagem.jpg",
+          "descricao": "Fichas de personagem onde são anotados atributos e habilidades."
+        },
+        {
+          "imagem": "img/mapa_rpg.jpg",
+          "descricao": "Mapa do mundo de jogo, usado para guiar os jogadores na aventura."
+        }
+      ]
     },
     {
       "id": 5,
       "nome": "Diferentes papéis de jogadores",
       "descricao": "Entenda as funções: o Mestre (Narrador), o Jogador Novato, o Roleplayer e o Power Gamer. Saiba como cada papel contribui para a diversão na mesa.",
-      "conteudo": "Cada jogador tem um papel único: o Mestre conduz a história, o Novato aprende, o Roleplayer foca na interpretação e o Power Gamer busca otimizar seu personagem.",
+      "conteudo": "No RPG, cada pessoa tem uma função que torna a narrativa viva:\n\n- Mestre/Narrador: cria o mundo, descreve situações e interpreta personagens secundários.\n- Jogadores: interpretam seus personagens e decidem como agir diante dos desafios.\n- Grupo: juntos, formam uma história que mistura planejamento, improviso e emoção.\n\nAlguns grupos ainda incluem funções adicionais, como quem cuida das anotações, dos mapas ou da trilha sonora. Cada papel é essencial para que o jogo flua de forma divertida e colaborativa.",
       "destaque": true,
       "data": "2025-10-06",
       "imagem_principal": "img/mestre.jpg",
-      "atracoes": []
+      "atracoes": [
+        {
+          "imagem": "img/mestre_jogo.jpg",
+          "descricao": "O mestre (ou narrador) é responsável por conduzir a história e os desafios."
+        },
+        {
+          "imagem": "img/jogadores_interpretando.jpg",
+          "descricao": "Jogadores interpretando seus personagens e tomando decisões criativas."
+        },
+        {
+          "imagem": "img/roleplayer_powergamer.jpg",
+          "descricao": "Cada jogador tem um estilo diferente: interpretação, estratégia ou improviso."
+        }
+      ]
     },
     {
       "id": 6,
       "nome": "Conheça o Veridice RPG",
       "descricao": "Uma análise detalhada do sistema Veridice RPG, suas regras únicas e seu universo de jogo.",
-      "conteudo": "Veridice RPG oferece mecânicas únicas, um mundo rico em histórias e liberdade para criar personagens. Ideal para quem busca profundidade e flexibilidade.",
+      "conteudo": "O Veridice RPG é um sistema autoral criado para o portal Role & Play, combinando simplicidade e liberdade narrativa.\nEle usa dados e cartas como elementos principais, permitindo resultados imprevisíveis e cenas cinematográficas.\nInspirado em mundos modernos com toques de paranormalidade e suspense, o Veridice é perfeito para quem quer histórias cheias de mistério, dilemas e segredos.\n\nSe você gosta de jogos com escolhas significativas e personagens intensos, o Veridice RPG é feito para você.",
       "destaque": false,
       "data": "2025-10-05",
       "imagem_principal": "img/veridice.png",
-      "atracoes": []
+      "botaoTexto": "Acesse o Servidor do Veridice",
+      "botaoLink": "",
+      "atracoes": [
+        {
+          "imagem": "img/veridice_logo.jpg",
+          "descricao": "Logotipo do sistema Veridice RPG."
+        },
+        {
+          "imagem": "img/veridice_fichas.jpg",
+          "descricao": "Ficha de personagem com atributos e habilidades únicas do sistema."
+        },
+        {
+          "imagem": "img/veridice_sessao.jpg",
+          "descricao": "Grupo jogando uma campanha ambientada no universo Veridice."
+        }
+      ]
     },
     {
       "id": 7,
       "nome": "Crie sua ficha",
       "descricao": "Guia passo a passo para montar sua ficha de personagem do zero, definindo atributos, habilidades e o histórico que dará vida ao seu herói (ou vilão)!",
-      "conteudo": "Defina atributos, habilidades, histórico e personalidade. Uma ficha bem construída ajuda na narrativa e na imersão do jogo.",
+      "conteudo": "A ficha de personagem é o coração do seu herói — o registro de tudo o que ele é e pode fazer dentro do jogo. Ela define atributos como força, inteligência ou carisma; anota habilidades especiais; guarda itens, pontos de vida e até a história pessoal do personagem.\n\nCada sistema de RPG tem seu próprio formato de ficha, mas todos seguem a mesma ideia: representar o que seu personagem sabe, sente e pode realizar. Em sistemas como D&D, isso é feito com números e classes; em outros, como Fate ou Call of Cthulhu, a ênfase está em aspectos narrativos e traços de personalidade.\n\nAo criar sua ficha, pense em quem é o seu personagem, o que ele deseja e quais são suas limitações. O equilíbrio entre mecânica e interpretação é o que transforma simples números em uma história viva e cheia de emoção.",
       "destaque": true,
       "data": "2025-10-04",
       "imagem_principal": "img/ficha rpg.jpg",
-      "atracoes": []
+      "atracoes": [
+        {
+          "imagem": "img/ficha_preenchendo.jpg",
+          "descricao": "Jogador preenchendo uma ficha de personagem à mão."
+        },
+        {
+          "imagem": "img/ficha_digital.jpg",
+          "descricao": "Versão digital de ficha de personagem usada em mesas online."
+        },
+        {
+          "imagem": "img/personagem_ilustrado.jpg",
+          "descricao": "Ilustração usada para representar o visual do personagem no jogo."
+        }
+      ]
     },
     {
       "id": 8,
       "nome": "Etiqueta e Boas Práticas na Mesa",
       "descricao": "Descubra as regras de ouro para um bom convívio, resolvendo conflitos, evitando o metagaming e criando um ambiente de jogo acolhedor para todos.",
-      "conteudo": "Evite metagaming, respeite turnos, incentive a colaboração e a diversão de todos. Boas práticas tornam a experiência mais agradável para todos os jogadores.",
+      "conteudo": "O RPG é uma experiência colaborativa. Para garantir que todos se divirtam:\n\n- Respeite o tempo e o espaço dos outros jogadores;\n- Evite interromper ou dominar a narrativa;\n- Comunique desconfortos e limites com clareza;\n- Lembre-se: o foco não é 'vencer', e sim contar uma boa história.\n\nJogos de RPG são mais divertidos quando todos participam com empatia e criatividade.",
       "destaque": true,
       "data": "2025-10-02",
       "imagem_principal": "img/respeito.jpg",
-      "atracoes": []
+      "atracoes": [
+        {
+          "imagem": "img/jogadores_respeito.jpg",
+          "descricao": "Jogadores colaborando e respeitando o turno uns dos outros."
+        },
+        {
+          "imagem": "img/mesa_amistosa.jpg",
+          "descricao": "Ambiente amigável e inclusivo torna o RPG mais divertido."
+        },
+        {
+          "imagem": "img/conflito_mesa.jpg",
+          "descricao": "Resolução de conflitos com diálogo e empatia durante a sessão."
+        }
+      ]
     },
     {
       "id": 9,
       "nome": "Comunidade Oficial no Discord",
       "descricao": "Junte-se ao nosso servidor oficial! Encontre mesas, mestres, jogadores e participe de discussões sobre sistemas de RPG.",
-      "conteudo": "Evite metagaming, respeite turnos, incentive a colaboração e a diversão de todos. Boas práticas tornam a experiência mais agradável para todos os jogadores.",
+      "conteudo": "A comunidade do Role & Play no Discord é o ponto de encontro para jogadores de todo o Brasil.\n\nLá você pode:\n- Encontrar grupos para jogar;\n- Compartilhar campanhas e ideias;\n- Tirar dúvidas sobre o sistema Veridice;\n- Participar de eventos e partidas abertas.\n\nEntre, apresente-se e descubra novas histórias esperando para acontecer!",
       "destaque": true,
-      "botaoTexto": "Entrar no Servidor",
       "data": "2025-10-02",
       "imagem_principal": "img/Discord_IAP_KeyVisuals_Header_02.jpg",
-      "atracoes": []
-    },
+      "botaoTexto": "Acesse o Servidor do Veridice",
+      "botaoLink": "",
+      "atracoes": [
+        {
+          "imagem": "img/discord_logo.jpg",
+          "descricao": "Logotipo do Discord, principal ferramenta de comunicação da comunidade."
+        },
+        {
+          "imagem": "img/servidor_discord.jpg",
+          "descricao": "Canais de texto e voz organizados para grupos de RPG online."
+        },
+        {
+          "imagem": "img/evento_discord.jpg",
+          "descricao": "Eventos e sessões ao vivo promovidos pela comunidade oficial."
+        }
+      ]
+    }
   ]
 };
 
+
 function gerarCards() {
   const container = document.getElementById('cards-container');
-  if (!container) return; 
+  if (!container) return;
 
   dados.cards.forEach(card => {
     const col = document.createElement('div');
@@ -149,22 +270,57 @@ function mostrarDetalhe() {
 
   if (card) {
     container.innerHTML = `
-      <img src="${card.imagem_principal}" class="card-img-top" alt="${card.nome}">
-      <div class="card-body">
-        <h3 class="card-title">${card.nome}</h3>
-        <p class="card-text">${card.descricao}</p>
-        <p>${card.conteudo || ""}</p>
+      <div class="card shadow-sm">
+        <img src="${card.imagem_principal}" class="card-img-top" alt="${card.nome}" style="object-fit: cover; max-height: 400px;">
+        <div class="card-body">
+          <h3 class="card-title">${card.nome}</h3>
+          <p class="text-muted mb-1"><strong>Data:</strong> ${card.data}</p>
+          <hr>
+          <p class="card-text">${card.descricao}</p>
+          <p>${card.conteudo || ""}</p>
+        </div>
       </div>
     `;
-  } else {
-    container.innerHTML = `
-      <div class="card-body">
-        <p>Card não encontrado!</p>
-        <a href="index.html" class="btn btn-secondary mt-3">Voltar</a>
+    const fotosContainer = document.getElementById("fotos-associadas");
+
+    if (card.atracoes && card.atracoes.length > 0) {
+      card.atracoes.forEach(item => {
+        const col = document.createElement("div");
+        col.className = "col";
+
+        col.innerHTML = `
+      <div class="card h-100 shadow-sm">
+        <img src="${item.imagem}" class="card-img-top" alt="Imagem associada">
+        <div class="card-body">
+          <p class="card-text text-center small text-muted">${item.descricao}</p>
+        </div>
       </div>
     `;
+        fotosContainer.appendChild(col);
+      });
+    } else {
+      fotosContainer.innerHTML = `<p class="text-muted">Nenhuma foto relacionada disponível.</p>`;
+    }
   }
+
+  container.innerHTML = `
+  <div class="card shadow-sm">
+    <img src="${card.imagem_principal}" class="card-img-top" alt="${card.nome}" style="object-fit: cover; max-height: 400px;">
+    <div class="card-body">
+      <h3 class="card-title">${card.nome}</h3>
+      <p class="text-muted mb-1"><strong>Data:</strong> ${card.data}</p>
+      <hr>
+      <p class="card-text">${card.descricao}</p>
+      <div class="conteudo"></div>
+    </div>
+  </div>
+`;
+
+  const conteudoEl = container.querySelector('.conteudo');
+  if (conteudoEl) conteudoEl.textContent = card.conteudo || '';
+
 }
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const path = window.location.pathname;
