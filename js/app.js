@@ -33,15 +33,15 @@ const dados = {
       "imagem_principal": "img/Caverna-do-Dragão-2.jpg",
       "atracoes": [
         {
-          "imagem": "img/dnd_classico.jpg",
+          "imagem": "img/capa_d&d.avif",
           "descricao": "Capa original do primeiro Dungeons & Dragons, lançado em 1974."
         },
         {
-          "imagem": "img/gary_g.jpg",
+          "imagem": "img/criador_rpg.jpg",
           "descricao": "Gary Gygax, um dos criadores do RPG de mesa."
         },
         {
-          "imagem": "img/rpg_moderno.jpg",
+          "imagem": "img/atual.jpg",
           "descricao": "Jogadores modernos utilizando livros e tablets para jogar."
         }
       ]
@@ -56,7 +56,7 @@ const dados = {
       "imagem_principal": "img/rpg-books.jpg",
       "atracoes": [
         {
-          "imagem": "img/livros_rpg.jpg",
+          "imagem": "img/livros_rpg.webp",
           "descricao": "Manuais de sistemas famosos como D&D, Tormenta e Call of Cthulhu."
         },
         {
@@ -79,7 +79,7 @@ const dados = {
       "imagem_principal": "img/jogar_rpg.webp",
       "atracoes": [
         {
-          "imagem": "img/dados_coloridos.jpg",
+          "imagem": "img/dados_coloridos.jpeg",
           "descricao": "Conjunto de dados coloridos de diferentes lados usados nas rolagens."
         },
         {
@@ -102,7 +102,7 @@ const dados = {
       "imagem_principal": "img/mestre.jpg",
       "atracoes": [
         {
-          "imagem": "img/mestre_jogo.jpg",
+          "imagem": "img/mestre.webp",
           "descricao": "O mestre (ou narrador) é responsável por conduzir a história e os desafios."
         },
         {
@@ -198,15 +198,15 @@ const dados = {
       "botaoLink": "",
       "atracoes": [
         {
-          "imagem": "img/discord_logo.jpg",
+          "imagem": "img/logotipodiscord.jpg",
           "descricao": "Logotipo do Discord, principal ferramenta de comunicação da comunidade."
         },
         {
-          "imagem": "img/servidor_discord.jpg",
+          "imagem": "img/Captura de tela 2025-10-11 115150.png",
           "descricao": "Canais de texto e voz organizados para grupos de RPG online."
         },
         {
-          "imagem": "img/evento_discord.jpg",
+          "imagem": "img/evento.jpg",
           "descricao": "Eventos e sessões ao vivo promovidos pela comunidade oficial."
         }
       ]
