@@ -269,6 +269,7 @@ function mostrarDetalhe() {
 
   if (card) {
     container.innerHTML = `
+    <h2 class="mb-3 border-bottom pb-2">Informações Gerais</h2>
       <div class="detalhe-container">
         <div class="imagem">
           <img src="${card.imagem_principal}" alt="${card.nome}">

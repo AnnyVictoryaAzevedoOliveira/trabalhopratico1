@@ -11,8 +11,8 @@
 body {
   background-color: #0b0a0f;
   color: #e4d9ff;
-  font-family: "Poppins", sans-serif;
-  margin: 0;
+  font-family: "Spectral", serif;
+  margin: 0px;
   padding: 0;
 }
 
@@ -43,6 +43,7 @@ header h1 {
   font-size: 2rem;
   color: #e0aaff;
   text-shadow: 0 0 10px #9d4edd;
+  font-family: "Cinzel", serif;
 }
 
 .logo {
@@ -150,9 +151,10 @@ header h1 {
 
 #detalhe-card h2,
 #detalhe-card h3 {
-  color: #d6b3ff;
+  color: white;
   font-size: 2rem;
   margin-bottom: 10px;
+  font-family: "Cinzel", serif;
 }
 
 #detalhe-card .data {
@@ -252,6 +254,10 @@ footer {
   display: block;
   margin-bottom: 20px;
   border-radius: 8px;
+}
+
+.mb-3 border-bottom pb-2{
+  color: white;
 }
 
 @media (max-width: 992px) {
