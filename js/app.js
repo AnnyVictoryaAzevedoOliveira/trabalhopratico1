@@ -269,21 +269,22 @@ function mostrarDetalhe() {
 
   if (card) {
     container.innerHTML = `
-      <div class="card shadow-sm">
-        <img src="${card.imagem_principal}" class="card-img-top" alt="${card.nome}" style="object-fit: cover; max-height: 400px;">
-        <div class="card-body">
-          <h3 class="card-title">${card.nome}</h3>
-          <p class="text-muted mb-1"><strong>Data:</strong> ${card.data}</p>
-          <hr>
-          <p class="card-text">${card.descricao}</p>
-          <p>${card.conteudo.replace(/\n/g, "<br>")}</p>
+      <div class="detalhe-container">
+        <div class="imagem">
+          <img src="${card.imagem_principal}" alt="${card.nome}">
+        </div>
 
-          ${card.botaoLink && card.botaoTexto
-        ? `<div class="text-center mt-4">
-                   <a href="${card.botaoLink}" target="_blank" class="btn btn-primary btn-lg">${card.botaoTexto}</a>
-                 </div>`
-        : ""
-      }
+        <div class="conteudo">
+          <h2>${card.nome}</h2>
+          <p class="data"><strong>Data:</strong> ${card.data}</p>
+          <hr>
+          <p class="descricao">${card.descricao}</p>
+          <p class="conteudo-texto">${card.conteudo.replace(/\n/g, "<br>")}</p>
+
+          ${card.botaoLink && card.botaoTexto ? `
+            <div class="botao-centro">
+              <a href="${card.botaoLink}" target="_blank" class="btn-detalhe">${card.botaoTexto}</a>
+            </div>` : ""}
         </div>
       </div>
     `;
@@ -310,6 +311,7 @@ function mostrarDetalhe() {
     }
   }
 }
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const path = window.location.pathname;
