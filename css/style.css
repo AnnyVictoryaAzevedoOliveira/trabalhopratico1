@@ -26,20 +26,20 @@ a:hover {
 }
 
 header {
-  display: flex; 
-  align-items: center; 
-  gap: 15px; 
+  display: flex;
+  align-items: center;
+  gap: 15px;
   background: rgba(20, 20, 20, 0.9);
   padding: 20px;
   position: sticky;
   top: 0;
   z-index: 1000;
   border-bottom: 2px solid #9d4edd;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 header h1 {
-  margin-bottom: 0; 
+  margin-bottom: 0;
   font-size: 2rem;
   color: #e0aaff;
   text-shadow: 0 0 10px #9d4edd;
@@ -231,46 +231,83 @@ footer {
   color: white;
 }
 
+.conteudo {
+  white-space: pre-line;
+  text-align: justify;
+  line-height: 1.6;
+  color: #ddd;
+  padding: 20px;
+}
+
+.detalhe-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.detalhe-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+@media (max-width: 992px) {
+
+  #detalhe-card>div {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #detalhe-card img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 0;
+  }
+
+  #detalhe-card h2,
+  #detalhe-card h3 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   .detalhe-container {
+
     padding: 15px;
     margin: 10px;
   }
 
   .conteudo {
-    font-size: 14px;
+    font-size: 15px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  #detalhe-card {
+    padding: 20px;
+    margin: 20px 10px;
+    box-shadow: none;
+  }
+  
+  #detalhe-card img {
+    margin-bottom: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  h1 {
-    font-size: 20px;
-  }
-
   .conteudo {
-    font-size: 13px;
+    font-size: 14px;
   }
-}
 
-.conteudo {
-    white-space: pre-line;
-    text-align: justify; 
-    line-height: 1.6; 
-    color: #ddd; 
-    padding: 20px;
-}
-
-.detalhe-container {
-    max-width: 900px;
-    margin: 20px auto; 
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.detalhe-container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 20px;
-    border-radius: 8px;
+  #detalhe-card h2,
+  #detalhe-card h3 {
+    font-size: 1.5rem;
+  }
 }

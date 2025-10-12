@@ -122,7 +122,7 @@ const dados = {
       "conteudo": "O Veridice RPG é um sistema autoral criado para o portal Role & Play, combinando simplicidade e liberdade narrativa.\nEle usa dados e cartas como elementos principais, permitindo resultados imprevisíveis e cenas cinematográficas.\nInspirado em mundos modernos com toques de paranormalidade e suspense, o Veridice é perfeito para quem quer histórias cheias de mistério, dilemas e segredos.\n\nSe você gosta de jogos com escolhas significativas e personagens intensos, o Veridice RPG é feito para você.",
       "destaque": false,
       "data": "2025-10-05",
-      "imagem_principal": "img/download.png",
+      "imagem_principal": "img/logo.png",
       "botaoTexto": "Acesse o Servidor do ROLE & PLAY",
       "botaoLink": "https://discord.gg/cfdpqCHrYg",
       "atracoes": [
