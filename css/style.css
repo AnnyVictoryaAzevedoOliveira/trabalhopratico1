@@ -151,19 +151,14 @@ header h1 {
 
 #detalhe-card h2,
 #detalhe-card h3 {
-  color: white;
+  color: #e0aaff;
   font-size: 2rem;
   margin-bottom: 10px;
   font-family: "Cinzel", serif;
 }
 
-#detalhe-card .data {
-  color: #b19cd9;
-  margin-bottom: 10px;
-}
-
 #detalhe-card p {
-  color: #c8b5e8;
+  color: white;
   line-height: 1.7;
 }
 
@@ -181,6 +176,11 @@ header h1 {
 .btn-detalhe:hover {
   background: #b366ff;
   box-shadow: 0 0 10px #b366ff;
+}
+
+#fotos-associadas {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #fotos-associadas .card {
@@ -231,6 +231,7 @@ footer {
 .sobremim {
   text-align: justify;
   color: white;
+  padding: 10px;
 }
 
 .conteudo {
@@ -241,13 +242,6 @@ footer {
   padding: 20px;
 }
 
-.detalhe-container {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 10px;
-}
-
 .detalhe-container img {
   max-width: 100%;
   height: auto;
@@ -256,8 +250,14 @@ footer {
   border-radius: 8px;
 }
 
-.mb-3 border-bottom pb-2{
+.mb-3.border-bottom.pb-2 {
   color: white;
+  padding: 24px;
+}
+
+.name{
+  padding: 10px;
+  color: #b086f7;
 }
 
 @media (max-width: 992px) {
@@ -301,7 +301,7 @@ footer {
     margin: 20px 10px;
     box-shadow: none;
   }
-  
+
   #detalhe-card img {
     margin-bottom: 20px;
   }

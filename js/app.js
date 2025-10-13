@@ -6,7 +6,6 @@ const dados = {
       "descricao": "Descubra o que é um Role-Playing Game (RPG) de mesa, por que ele é tão divertido e os elementos básicos para começar a jogar.",
       "conteudo": "O Role-Playing Game (RPG) é um jogo em que os participantes assumem papéis de personagens e criam, juntos, uma história interativa. Em vez de simplesmente seguir regras rígidas, o RPG incentiva a imaginação, a interpretação e a tomada de decisões criativas.\nUm jogador assume o papel de Mestre, responsável por narrar o mundo, controlar os personagens secundários e definir desafios. Os demais interpretam personagens-jogadores, com personalidades, habilidades e motivações próprias. Cada jogada se torna parte de uma narrativa colaborativa — o resultado depende tanto das escolhas dos jogadores quanto da sorte dos dados.",
       "destaque": true,
-      "data": "2025-10-10",
       "imagem_principal": "img/interrogacao.jpg",
       "atracoes": [
         {
@@ -29,7 +28,6 @@ const dados = {
       "descricao": "Conheça a origem do RPG, desde os primórdios do D&D até os sistemas mais modernos.",
       "conteudo": "O RPG nasceu na década de 1970, com o lançamento de Dungeons & Dragons (D&D), criado por Gary Gygax e Dave Arneson.\nInspirado em jogos de estratégia e literatura de fantasia, o D&D transformou o conceito de jogo ao permitir que cada pessoa interpretasse um personagem e criasse histórias coletivas. Desde então, o RPG evoluiu para inúmeros estilos — fantasia, terror, ficção científica, mistério e até versões modernas de suspense urbano.\nHoje, o RPG de mesa é tanto um hobby quanto uma ferramenta educativa e artística, que promove criatividade, empatia e pensamento crítico.",
       "destaque": false,
-      "data": "2025-10-09",
       "imagem_principal": "img/Caverna-do-Dragão-2.jpg",
       "atracoes": [
         {
@@ -52,7 +50,6 @@ const dados = {
       "descricao": "Fantasia Medieval, Sci-Fi, Terror? Aprenda a identificar qual sistema (como D&D, Tormenta, Call of Cthulhu) se encaixa melhor no seu estilo e no da sua mesa.",
       "conteudo": "Cada sistema de RPG define como as regras funcionam — o que pode ou não ser feito, como testar ações e como contar a história.\nPara escolher o ideal, pense em:\n- Tema: fantasia medieval, mistério, horror, ficção científica, realismo urbano, etc.\n- Estilo de jogo: narrativo, estratégico, rápido, investigativo, cooperativo…\n- Complexidade: sistemas simples como Fate ou Veridice são ótimos para iniciantes; já D&D e Pathfinder oferecem mais detalhes táticos.\n\nNão existe um 'melhor sistema' — o ideal é aquele que combina com o grupo e com o tipo de história que vocês querem contar.",
       "destaque": true,
-      "data": "2025-10-08",
       "imagem_principal": "img/rpg-books.jpg",
       "atracoes": [
         {
@@ -75,7 +72,6 @@ const dados = {
       "descricao": "Dados, lápis, papel e imaginação! Veja uma lista completa dos itens essenciais e opcionais para sua primeira sessão de RPG.",
       "conteudo": "Para começar uma sessão de RPG, você precisa de:\n\n- Um grupo de jogadores (geralmente 3 a 6 pessoas);\n- Um Mestre ou Narrador para conduzir a história;\n- Um sistema de regras (livro físico, PDF ou guia resumido);\n- Dados poliédricos (ou aplicativos de rolagem online);\n- Fichas de personagem, lápis e papel;\n- E, acima de tudo, imaginação.\n\nMesmo com poucos recursos, dá para jogar usando apenas o celular, dados virtuais e um espaço online como o Discord.",
       "destaque": false,
-      "data": "2025-10-07",
       "imagem_principal": "img/jogar_rpg.webp",
       "atracoes": [
         {
@@ -98,7 +94,6 @@ const dados = {
       "descricao": "Entenda as funções: o Mestre (Narrador), o Jogador Novato, o Roleplayer e o Power Gamer. Saiba como cada papel contribui para a diversão na mesa.",
       "conteudo": "No RPG, cada pessoa tem uma função que torna a narrativa viva:\n\n- Mestre/Narrador: cria o mundo, descreve situações e interpreta personagens secundários.\n- Jogadores: interpretam seus personagens e decidem como agir diante dos desafios.\n- Grupo: juntos, formam uma história que mistura planejamento, improviso e emoção.\n\nAlguns grupos ainda incluem funções adicionais, como quem cuida das anotações, dos mapas ou da trilha sonora. Cada papel é essencial para que o jogo flua de forma divertida e colaborativa.",
       "destaque": true,
-      "data": "2025-10-06",
       "imagem_principal": "img/mestre rpg.jpg",
       "atracoes": [
         {
@@ -121,7 +116,6 @@ const dados = {
       "descricao": "Uma análise detalhada do sistema Veridice RPG, suas regras únicas e seu universo de jogo.",
       "conteudo": "O Veridice RPG é um sistema autoral criado para o portal Role & Play, combinando simplicidade e liberdade narrativa.\nEle usa dados e cartas como elementos principais, permitindo resultados imprevisíveis e cenas cinematográficas.\nInspirado em mundos modernos com toques de paranormalidade e suspense, o Veridice é perfeito para quem quer histórias cheias de mistério, dilemas e segredos.\n\nSe você gosta de jogos com escolhas significativas e personagens intensos, o Veridice RPG é feito para você.",
       "destaque": false,
-      "data": "2025-10-05",
       "imagem_principal": "img/logo.png",
       "botaoTexto": "Acesse o Servidor do ROLE & PLAY",
       "botaoLink": "https://discord.gg/cfdpqCHrYg",
@@ -146,7 +140,6 @@ const dados = {
       "descricao": "Guia passo a passo para montar sua ficha de personagem do zero, definindo atributos, habilidades e o histórico que dará vida ao seu herói (ou vilão)!",
       "conteudo": "A ficha de personagem é o coração do seu herói — o registro de tudo o que ele é e pode fazer dentro do jogo. Ela define atributos como força, inteligência ou carisma; anota habilidades especiais; guarda itens, pontos de vida e até a história pessoal do personagem.\n\nCada sistema de RPG tem seu próprio formato de ficha, mas todos seguem a mesma ideia: representar o que seu personagem sabe, sente e pode realizar. Em sistemas como D&D, isso é feito com números e classes; em outros, como Fate ou Call of Cthulhu, a ênfase está em aspectos narrativos e traços de personalidade.\n\nAo criar sua ficha, pense em quem é o seu personagem, o que ele deseja e quais são suas limitações. O equilíbrio entre mecânica e interpretação é o que transforma simples números em uma história viva e cheia de emoção.",
       "destaque": true,
-      "data": "2025-10-04",
       "imagem_principal": "img/ficha rpg.jpg",
       "atracoes": [
         {
@@ -169,7 +162,6 @@ const dados = {
       "descricao": "Descubra as regras de ouro para um bom convívio, resolvendo conflitos, evitando o metagaming e criando um ambiente de jogo acolhedor para todos.",
       "conteudo": "O RPG é uma experiência colaborativa. Para garantir que todos se divirtam:\n\n- Respeite o tempo e o espaço dos outros jogadores;\n- Evite interromper ou dominar a narrativa;\n- Comunique desconfortos e limites com clareza;\n- Lembre-se: o foco não é 'vencer', e sim contar uma boa história.\n\nJogos de RPG são mais divertidos quando todos participam com empatia e criatividade.",
       "destaque": true,
-      "data": "2025-10-02",
       "imagem_principal": "img/respeito.jpg",
       "atracoes": [
         {
@@ -192,7 +184,6 @@ const dados = {
       "descricao": "Junte-se ao nosso servidor oficial! Encontre mesas, mestres, jogadores e participe de discussões sobre sistemas de RPG.",
       "conteudo": "A comunidade do Role & Play no Discord é o ponto de encontro para jogadores de todo o Brasil.\n\nLá você pode:\n- Encontrar grupos para jogar;\n- Compartilhar campanhas e ideias;\n- Tirar dúvidas sobre o sistema Veridice;\n- Participar de eventos e partidas abertas.\n\nEntre, apresente-se e descubra novas histórias esperando para acontecer!",
       "destaque": true,
-      "data": "2025-10-02",
       "imagem_principal": "img/Discord_IAP_KeyVisuals_Header_02.jpg",
       "botaoTexto": "Acesse o Servidor do ROLE & PLAY",
       "botaoLink": "https://discord.gg/cfdpqCHrYg",
@@ -269,7 +260,6 @@ function mostrarDetalhe() {
 
   if (card) {
     container.innerHTML = `
-    <h2 class="mb-3 border-bottom pb-2">Informações Gerais</h2>
       <div class="detalhe-container">
         <div class="imagem">
           <img src="${card.imagem_principal}" alt="${card.nome}">
@@ -277,11 +267,9 @@ function mostrarDetalhe() {
 
         <div class="conteudo">
           <h2>${card.nome}</h2>
-          <p class="data"><strong>Data:</strong> ${card.data}</p>
-          <hr>
           <p class="descricao">${card.descricao}</p>
           <p class="conteudo-texto">${card.conteudo.replace(/\n/g, "<br>")}</p>
-
+          
           ${card.botaoLink && card.botaoTexto ? `
             <div class="botao-centro">
               <a href="${card.botaoLink}" target="_blank" class="btn-detalhe">${card.botaoTexto}</a>
