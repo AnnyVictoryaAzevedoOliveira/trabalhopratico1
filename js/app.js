@@ -205,11 +205,12 @@ const dados = {
   ]
 };
 
-
+//função para gerar os cards na página inicial
 function gerarCards() {
   const container = document.getElementById('cards-container');
-  if (!container) return;
+  if (container === null) return; // verifica se o container existe na página
 
+  //percorre todos os cards definidos
   dados.cards.forEach(card => {
     const col = document.createElement('div');
     col.className = 'col';
@@ -225,13 +226,15 @@ function gerarCards() {
       </div>
     `;
 
+    // adiciona o card ao container principal
     container.appendChild(col);
   });
 }
 
+// função que gera o carrossel na página inicial
 function gerarCarrossel() {
   const container = document.getElementById('carousel-container');
-  if (!container) return;
+  if (container === null) return; // verifica se o container existe na página
 
   dados.cards.forEach((card, index) => {
     const slide = document.createElement('div');
@@ -246,19 +249,21 @@ function gerarCarrossel() {
         </div>
       </a>
     `;
+    // adiciona o slide ao container do carrossel
     container.appendChild(slide);
   });
 }
 
+// função responsável por exibir os detalhes de um card
 function mostrarDetalhe() {
   const container = document.getElementById('detalhe-card');
-  if (!container) return;
+  if (container === null) return; // se não existir sai da função
 
   const params = new URLSearchParams(window.location.search);
   const id = parseInt(params.get('id'));
   const card = dados.cards.find(c => c.id === id);
 
-  if (card) {
+  if (card) {  // se o card foi encontrado preenche o conteúdo da página de detalhes
     container.innerHTML = `
       <div class="detalhe-container">
         <div class="imagem">
@@ -278,8 +283,10 @@ function mostrarDetalhe() {
       </div>
     `;
 
+    // seleciona o container das fotos associadas
     const fotosContainer = document.getElementById("fotos-associadas");
 
+    //gera cards menores, caso exista imagens relacionadas
     if (card.atracoes && card.atracoes.length > 0) {
       fotosContainer.innerHTML = "";
       card.atracoes.forEach(item => {
@@ -296,19 +303,21 @@ function mostrarDetalhe() {
         fotosContainer.appendChild(col);
       });
     } else {
+      // Caso não existam itens semelhantes 
       fotosContainer.innerHTML = `<p class="text-muted">Nenhuma foto relacionada disponível.</p>`;
     }
   }
 }
 
-
+// Executa automaticamente as funções certas dependendo da página atual
 document.addEventListener("DOMContentLoaded", function () {
   const path = window.location.pathname;
 
+  //Na página inicial, gera cards e carrossel
   if (path.includes("index.html") || path === "/" || path === "") {
     gerarCards();
     gerarCarrossel();
-  } else if (path.includes("detalhes.html")) {
+  } else if (path.includes("detalhes.html")) { // na página de detalhes, mostra o conteúdo do card
     mostrarDetalhe();
   }
 });

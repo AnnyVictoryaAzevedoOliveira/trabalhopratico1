@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.conteudo {
-  white-space: pre-line;
-}
-
 body {
   background-color: #0b0a0f;
   color: #e4d9ff;
@@ -25,6 +21,7 @@ a:hover {
   color: #d1aaff;
 }
 
+/*Cabeçalho*/
 header {
   display: flex;
   align-items: center;
@@ -46,11 +43,13 @@ header h1 {
   font-family: "Cinzel", serif;
 }
 
+/*logo do site*/
 .logo {
   width: 50px;
   height: auto;
 }
 
+/*Carrossel*/
 .carousel-inner img {
   height: 400px;
   object-fit: cover;
@@ -73,6 +72,7 @@ header h1 {
   border-radius: 50%;
 }
 
+/*Cards*/
 #cards-container .card {
   height: 100%;
   display: flex;
@@ -119,6 +119,7 @@ header h1 {
   border-color: #343a40;
 }
 
+/*Página de detalhes*/
 #detalhe-card {
   background-color: #0f0a18;
   border-radius: 20px;
@@ -178,6 +179,7 @@ header h1 {
   box-shadow: 0 0 10px #b366ff;
 }
 
+/*Fotos relacionadas aos cards*/
 #fotos-associadas {
   padding-left: 15px;
   padding-right: 15px;
@@ -194,6 +196,7 @@ header h1 {
   object-fit: cover;
 }
 
+/*ajuste nos cards para seções internas*/
 #detalhe-card .card {
   border-radius: 10px;
   overflow: hidden;
@@ -219,6 +222,7 @@ header h1 {
   border-color: #343a40;
 }
 
+/*Rodapé*/
 footer {
   background-color: #160d24;
   color: #bca6e4;
@@ -228,12 +232,14 @@ footer {
   border-top: 1px solid #3d2b54;
 }
 
+/*seção "sobre mim"*/
 .sobremim {
   text-align: justify;
   color: white;
   padding: 10px;
 }
 
+/*ajustes gerais do conteúdo*/
 .conteudo {
   white-space: pre-line;
   text-align: justify;
@@ -250,6 +256,7 @@ footer {
   border-radius: 8px;
 }
 
+/*título das seções*/
 .mb-3.border-bottom.pb-2 {
   color: white;
   padding: 24px;
@@ -260,6 +267,7 @@ footer {
   color: #b086f7;
 }
 
+/*Responsividade*/
 @media (max-width: 992px) {
 
   #detalhe-card>div {
